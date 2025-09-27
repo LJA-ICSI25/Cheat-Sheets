@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberPatriot Cheat Sheet</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="cyber test.html">Home</a></li>
+            <li><a href="Guides.html"  onclick="myFunction()">Extra Guides</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1E72Dlh5_F4py_eYQAwgE39sKLzCCnS4n?usp=sharing">Script Folder</a></li>
+            <li><a href="Cisco v2.html">Cisco</a></li>
+            <li><a href="Windows Server.html">Windows Server</a></li>
+            <li><a href="Cyber-AboutMe v2.html">About Me</a></li>
+        </ul>
+
+        <script>
+            function myFunction() {
+              alert("These pages are only for more advanced learners. Continue at your own risk and knowledge.");
+            }
+            </script>
+    </nav>
+
+    <div class="container">
+        <h1>CyberPatriot Cheat Sheet</h1>
+        <hr>
+
+        <h2>How This Page Works:</h2>
+        <p>Every month, I will try to release a new version with updates and additional instructions.</p>
+        <p>Some months, I may not have time, but I will try my best.</p>
+        <p>There are no images to keep it small, but all necessary information is included.</p>
+        <p>I know some parts aren't done but I'm trying my best to get them all done. As I work on them I will update it for everyone else. </p>
+        <p><strong>Better displayed on a laptop or desktop. Not designed for phones/tablets.</strong></p>
+        <hr>
+
+        <h2><strong>Rules</strong></h2>
+        <h3>There are two important rules:</h3>
+        <ol>
+            <li><strong>DO NOT DELETE ANYTHING UNLESS YOU KNOW EXACTLY WHAT YOU'RE DOING. Consult a coach first.</strong></li>
+            <li><strong>Do not edit my code. I worked hard on these, so don't mess them up.</strong></li>
+        </ol>
+        <p>If you have any issues, use the "About Me" page to contact me.</p>
+        <hr>
+
+        <h2><strong>Table of Contents</strong></h2>
+        <ul>
+            <li><a href="#1">Using a Script</a></li>
+            <li><a href="#2">How to open a program as administrator</a></li>
+            <li><a href="#3">How to Create a Quick Script</a></li>
+            <li><a href="#4">How to Remove Users in Linux</a></li>
+            <li><a href="#5">How to Disable Users in Windows with Scripts</a></li>
+            <li><a href="#6">How to Check Firewall in Windows</a></li>
+            <li><a href="#7">How to Change Password Policies in Windows</a></li>
+            <li><a href="#8">How to Uninstall a Program</a></li>
+            <li><a href="#9">How to Change Administrator Permissions</a></li>
+            <li><a href="#10">How to Change User Password</li>
+            <li><a href="#11">How to Force All Users to Have a Password</a></li>
+            <li><a href="#12">How to View Users WITHOUT SCRIPTS</a></li>
+            <li><a href="#13">How to Add a User with Scripts</a></li>
+            <li><a href="#14">How to See All Installed Programs</a></li>
+            <li><a href="#15">How to Uninstall a Program with Scripts</a></li>
+            <li><a href="#16">How to View All Running Programs</a></li>
+        </ul>
+        <hr>
+
+        <h2 id="1">Using a Script</h2>
+        <ol>
+            <li>Find the script you need.</li>
+            <li>Open it. If it's not in a readable format like .txt or Google Docs, convert it.</li>
+            <li>Copy ALL of the script. Use CTRL + A to select everything.</li>
+            <li>Open the appropriate program:
+                <ul>
+                    <li>Windows: PowerShell (Run as Administrator)</li>
+                        <ul>
+                            <li>Go to the search bar</li>
+                            <li>Type powershell</li>
+                            <li>Right click and click run as administrator</li>
+                        </ul>
+                    <li>Linux: Terminal</li>
+                        <ul>
+                            <li>Go to the bottom left and open the menu</li>
+                            <li>Go to the search bar</li>
+                            <li>Search for Terminal</li>
+                            <li>Open Terminal</li>
+                        </ul>
+                </ul>
+            </li>
+            <li>Paste the script and press Enter <strong>AFTER THE SCRIPT HAS FULLY PASTED.</strong></li>
+            <li>Follow the instructions.</li>
+        </ol>
+        <hr>
+
+        <h2 id="2">How to run a program as an Administrator (from search bar)</h2>
+        <ol>
+            <li>Find the program you want to open</li>
+            <li>Right click on the program</li>
+            <li>Click "Run as Administrator"</li>
+            <ul>
+                <li>If a pop-up appears asking for permission, click OK</li>
+            </ul>
+        </ol>
+        <hr>
+
+        <h2 id="3">How to make a quick script:</h2>
+        <ol>
+            <li>Open your web browser your you computer</li>
+            <li>Go to Chat-GPT</li>
+            <li>Log-in</li>
+            <li>Input the type of script you need and the action you need it complete</li>
+            <li>Copy and paste into the correct program</li>
+            <li>Change prompt if needed</li>
+        </ol>
+        <hr>
+
+        <h2 id="4">How to Remove Users in Linux</h2>
+        <ol>
+            <li>Click on the 9-square dots in the bottom left</li>
+            <li>Open Settings</li>
+            <li>Go to Users</li>
+            <li>Click Unlock and follow the instructions</li>
+            <li>Check users against the approved list in the READ ME</li>
+            <li>If a user is unapproved, click Remove User and choose Keep Files</li>
+        </ol>
+        <hr>
+
+        <h2 id="5">How to disable users in Windows with scripts</h2>
+        <ol>
+            <li>Find and open the READ ME file</li>
+            <li>Find the list of approved users</li>
+            <li>Open Powershell as an administrator </li>
+                <ul>
+                    <li>Go to the search bar</li>
+                    <li>Type powershell</li>
+                    <li>Right click and click run as administrator</li>
+                </ul>
+                <li>Go to the script folder</li>
+                <ul>
+                <li>You will need User-tools</li>
+                </ul>
+            <li>Open the script and copy everything</li>
+            <li>Go back to powershell and paste everything</li>
+            <li>In the options, type 1 to get to the enable and disable user list</li>
+                <ul>
+                    <li>This list shows every user on the device and if they are disabled or not </li>
+                </ul>
+            <li>Double check the list of users with the list of approved users<br>(There are system users that are disbaled by defualt, do not enable them or change anything with them)</li>
+            <li>If you find a user that is not on the approved list</li>
+                <ul> 
+                    <li>Type their name and click enter. </li>
+                    <li>This will disable the user</li>
+                </ul>
+        </ol>
+        <hr>
+
+        <h2 id="6">How to check firewall in windows</h2>
+        <ol>
+            <li>Search for Control Panel in the search bar and open it</li>
+            <li>Find Network and Internet </li>
+                <ul>
+                <li>Click on View network status and tasks</li>
+                </ul>
+            <li>At the bottom find and click on Windows Defender Firewall</li>
+            <li>Make sure all bars are green and NOT RED</li>
+            <li>To change the status of any Firewall
+                <ul> 
+                    <li>Go to the left side</li> 
+                    <li>Find Turn Windows Firewall on or off</li>
+                </ul>
+            <li>Change the settings to being on</li>
+        </ol>
+        <hr>
+        
+        <h2 id="7">How to change password policies in Windows</h2>
+        <ol>
+            <li>Open powershell as an administrator</li>
+            <li>Go to the scripts folder</li>
+                <ul>
+                <li>You will need User-tools</li>
+                </ul>
+            <li>Open the script and copy everything</li>
+            <li>Go back to powershell and paste everything</li>
+            <li>In the options, type 5 to be able to set the password policies</li>
+            <li>Click enter until you get to Lockout Threshold</li>
+                <ul>
+                <li>Put a 5 and click enter</li>
+                <li>You can edit any of them but please check with a coach or look at one of the checklists</li>
+                </ul>
+            <li>Keep clicking enter until you get to the end</li>
+            <li>Type "proceed" to confirm the changes</li>
+        </ol>
+        <hr>
+
+        <h2 id="8">How to uninstall a program in Windows</h2>
+        <ol>
+            <li>Search for Control Panel</li>
+            <li>Find the Programs tab</li>
+                <ul>
+                <li>Go down to Uninstall a program</li>
+                </ul>
+            <li>Find the program you want to uninstall</li>
+            <li>Once you click on the program find the Uninstall button</li>
+            <li>Click the button and follow any other instructions</li>
+        </ol>
+        <hr>
+
+        <h2 id="9">How to change administrator permissions</h2>
+        <ol>
+            <li>Open powershell as administrator</li>
+            <li>Go to the scripts folder, you will need User-tools</li>
+            <li>Open the script and copy everything</li>
+            <li>Go back to powershell and paste everything</li>
+            <li>In the options, type 3 to get a list of the administrators</li>
+            <li>Check this list with the list of approved administrators in the READ ME</li>
+            <li>If a user is not an approved administrator,</li>
+                <ul>
+                <li>Type the users name to diable them</li>
+                </ul>
+            <li>If you are missing an apporved user,</li>
+                <ul>
+                <li>Type their name to add them to the list of administrators</li>
+                </ul>
+        </ol>
+        <hr>
+
+        <h2 id="10">How to change user password</h2>
+        <ol>
+            <li>Open powershell as administrator</li>
+            <li>Go to the scripts folder
+                <ul>
+                <li>You will need User-tools</li>
+                </ul>
+            <li>Open the script and copy everything</li>
+            <li>Go back to powerhsell and paste everything</li>
+            <li>In the options, type 2 to get a list of all users</li>
+            <li>Now find the user you need to change the password of and type their name</li>
+            <li>You have 2 options,</li>
+                <ol>
+                <li>You can the password to anything you choose</li>
+                <li>You can just click enter and it will change it to a random password</li>
+                </ol>
+        </ol>
+        <hr>
+
+        <h2 id="11">How to force all users to have a password</h2>
+        <ol>
+            <li>Open powershell as administrator</li>
+            <li>Go to the scripts folder</li>
+                <ul>
+                <li>You will need User-tools</li>
+                </ul>
+            <li>Open the script and copy everything</li>
+            <li>Go back to powershell and paste everything</li>
+            <li>In the options, type 4 to force all users to have a password</li>
+        </ol>
+        <hr>
+
+        <h2 id="12">How to view users WITHOUT SCRIPTS</h2>
+        <ol>
+            <li>Go to the search bar and search Computer Management</li>
+            <li>On the left side of the window</li>
+                <ul>
+                <li>Find Local Users and Groups</li>
+                </ul>
+            <li>Click on the Users folder</li>
+            <li>Find the user you need and double click on them
+                <ul>
+                <li>This gives you all the settings for the user</li>
+                </ul>
+        </ol>
+        <hr>
+
+        <h2 id="13">How to add a user with scripts</h2>
+        <ol>
+            <li>Open powershell as administrator</li>
+            <li>Go to the script folder</li>
+                <ul>
+                <li>You will need User-tools v2</li>
+                </ul>
+            <li>Open the script and copy everything</li>
+            <li>Go back to powershell and paste everything</li>
+            <li>Type 6, This will give you the option to add a user</li>
+            <li>Enter their username</li>
+            <li>Enter their password</li>
+        </ol>
+        <hr>
+
+        <h2 id="14">How to see all installed programs</h2>
+        <ol>
+            <li>Open powershell as administrator</li>
+            <li>Go to the script folder</li>
+                <ul>
+                <li>You will need User-tools v2</li>
+                </ul>
+            <li>Open the script and copy everything</li>
+            <li>Go back to powershell and paste everything</li>
+            <li>Type 7, this will show you the list of all installed programs</li>
+        </ol>
+        <hr>
+
+        <h2 id="15">How to uninstall a program with scripts</h2>
+        <ol>
+            <li>Open powershell as administrator</li>
+            <li>Go to the script folder</li>
+                <ul>
+                <li>You will need User-tools v2</li>
+                </ul>
+            <li>Open the script and copy everything</li>
+            <li>Go back to powershell and paste everything</li>
+            <li>Type 8, this will give the list of all programs</li>
+            <li>Type the name of the program you want to uninstall</li>
+        </ol>
+        <hr>
+
+        <h2 id="16">How to view all running programs</h2>
+        <ol>
+            <li>Open powershell as administrator</li>
+            <li>Go to the script folder</li>
+                <ul>
+                <li>You will need User-tools v2</li>
+                </ul>
+            <li>Open the script and copy everything</li>
+            <li>Go back to powershell and paste everything</li>
+            <li>Type 9, this will start the script to show everything running on the computer</li>
+        </ol>
+        <hr>
+
+        <h2></h2>
+
+
+
+
+        
+
+
+
+
+    </div>
+</body>
+</html>

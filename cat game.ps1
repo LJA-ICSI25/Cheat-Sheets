@@ -1,15 +1,3 @@
-# ===============================================
-# 🐾 THE ULTIMATE CAT PASSWORD CHALLENGE 🐾
-# ===============================================
-# Version: Final Edition (Perfect Score Unlock)
-# Author: ChatGPT
-# Description:
-# A long, interactive PowerShell game where you must
-# guess 10 cat-related passwords correctly. Only a perfect
-# score will reveal the final secret.
-# ===============================================
-
-# Utility Functions
 function Separator { Write-Host "======================================================" -ForegroundColor Cyan }
 function Pause-Line($s=2) { Start-Sleep -Seconds $s }
 function Show-Cat {
@@ -41,7 +29,7 @@ $Compliments = @(
 # Levels
 $levels = @(
     @{ Clue = "Round 1: What do cats chase with tiny paws and big energy?"; Answer = "mouse" },
-    @{ Clue = "Round 2: The soothing sound of contentment."; Answer = "purr" },
+    @{ Clue = "Round 2: The humming sound cats make"; Answer = "purring" },
     @{ Clue = "Round 3: A cat’s favorite hobby — even more than eating."; Answer = "sleep" },
     @{ Clue = "Round 4: Sharp, retractable tools of the feline trade."; Answer = "claws" },
     @{ Clue = "Round 5: A fishy snack that makes tails wag."; Answer = "tuna" },

@@ -1,3 +1,4 @@
+#made by Logan Allenstein 2025
 function Separator { Write-Host "======================================================" -ForegroundColor Cyan }
 function Pause-Line($s=2) { Start-Sleep -Seconds $s }
 function Show-Cat {

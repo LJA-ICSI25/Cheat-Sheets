@@ -136,8 +136,9 @@ function Play-Game {
 
     if ($score -eq $levels.Count) {
         Type-Text "The cats purr approvingly..."
+        Type-Text "You finally gain their approval for their master secret"
         Pause-Line 2
-        Type-Text "You have earned the final secret."
+        Type-Text "The answer of the master secret is..."
         Pause-Line 1
         Write-Host ""
         Write-Host "🐾 The answer is the name of my cat, yes you can find it." -ForegroundColor Magenta

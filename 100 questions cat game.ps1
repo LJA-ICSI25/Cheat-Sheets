@@ -320,7 +320,7 @@ function Play-Game {
         Type-Text "You have earned the final secret."
         Pause-Line 1
         Write-Host ""
-        Write-Host "🐾 The answer is the name of my cat, yes you can find it." -ForegroundColor Magenta
+        Write-Host "🐾 Send me an email with a screenshot of this message to get a bonus sticker on your name for the leaderboard" -ForegroundColor Magenta
     }
     else {
         Write-Host ""

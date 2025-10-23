@@ -1,16 +1,3 @@
-# ===============================================
-# 🐾 THE ULTIMATE CAT PASSWORD CHALLENGE 🐾
-# ===============================================
-# Version: Mega Edition (100 Questions)
-# Author: ChatGPT
-# Description:
-# Interactive PowerShell game with 100 cat-themed passwords.
-# Only a perfect score reveals the final secret.
-# ===============================================
-
-# ===============================
-# Utility Functions
-# ===============================
 function Separator { Write-Host "======================================================" -ForegroundColor Cyan }
 function Pause-Line($s=2) { Start-Sleep -Seconds $s }
 function Show-Cat {
@@ -27,15 +14,8 @@ function Type-Text($text, $delay = 0.02) {
     }
     Write-Host ""
 }
-
-# ===============================
-# Player Name
-# ===============================
 $player = Read-Host -Prompt "Before we begin, traveler, tell us your name"
 
-# ===============================
-# Compliments (100)
-# ===============================
 $Compliments = @(
 "You're clawing your way to victory, nice!",
 "That was purr-fect!",
@@ -141,9 +121,6 @@ $Compliments = @(
 "Meow-velous achievement!"
 )
 
-# ===============================
-# 100 Cat Questions
-# ===============================
 $levels = @(
     @{ Clue = "Round 1: What do cats chase with tiny paws and big energy?"; Answer = "mouse" },
     @{ Clue = "Round 2: The soothing sound of contentment."; Answer = "purr" },
@@ -247,9 +224,6 @@ $levels = @(
     @{ Clue = "Round 100: Internet-famous grumpy cat meme."; Answer = "grumpycat" }
 )
 
-# ===============================
-# --- Intro ---
-# ===============================
 Clear-Host
 Separator
 Write-Host "🐱 WELCOME TO THE ULTIMATE CAT PASSWORD ADVENTURE 🐱" -ForegroundColor Magenta
@@ -274,9 +248,6 @@ if ($response.ToLower() -ne "yes") {
     exit
 }
 
-# ===============================
-# --- Main Game ---
-# ===============================
 function Play-Game {
     param([string]$player)
     $score = 0
@@ -333,7 +304,7 @@ function Play-Game {
         $levelNum++
     }
 
-    # --- Game Complete ---
+ 
     Clear-Host
     Separator
     Write-Host "🎉 CONGRATULATIONS, ${player}! YOU'VE COMPLETED THE CAT REALM! 🎉" -ForegroundColor Yellow
@@ -372,9 +343,6 @@ function Play-Game {
     }
 }
 
-# ===============================
-# --- Retry Function ---
-# ===============================
 function Ask-Retry {
     Write-Host ""
     Write-Host "Would you like to try again? (yes/no)" -ForegroundColor White

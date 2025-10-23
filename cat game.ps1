@@ -141,7 +141,7 @@ function Play-Game {
         Type-Text "The answer of the master secret is..."
         Pause-Line 1
         Write-Host ""
-        Write-Host "🐾 The answer is the name of my cat, yes you can find it." -ForegroundColor Magenta
+        Write-Host "🐾 The answer is the name of my cat, yes you can find it. Also include a selfie playing the game. I want to make a collection" -ForegroundColor Magenta
     }
     else {
         Write-Host ""

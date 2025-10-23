@@ -38,7 +38,7 @@ $levels = @(
     @{ Clue = "Round 7: Where your cat sits when you’re typing."; Answer = "keyboard" },
     @{ Clue = "Round 8: The place cats ruled in ancient legends."; Answer = "egypt" },
     @{ Clue = "Round 9: What does a cat use to clean itself?"; Answer = "tongue" },
-    @{ Clue = "Round 10: What mythical creature is half cat, half bread? (Internet meme!)"; Answer = "nyancat" }
+    @{ Clue = "Round 10: What mythical creature is half poptart, half cat? (Internet meme!)"; Answer = "nyancat" }
 )
 
 # --- Intro ---

@@ -321,6 +321,7 @@ function Play-Game {
         Pause-Line 1
         Write-Host ""
         Write-Host "🐾 Send me an email with a screenshot of this message to get a bonus sticker on your name for the leaderboard" -ForegroundColor Magenta
+        Write-Host "Your final score: $score / $($levels.Count)" -ForegroundColor Cyan
     }
     else {
         Write-Host ""

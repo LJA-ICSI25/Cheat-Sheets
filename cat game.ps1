@@ -20,7 +20,7 @@ $Compliments = @(
     "You're clawing your way to victory, nice!",
     "That was purr-fect!",
     "You're as clever as a Siamese!",
-    "Impressive instincts, ${player}!",
+    "Impressive instincts!",
     "You must have nine lives of wisdom!",
     "That was smoother than a cat’s fur!",
     "Your curiosity truly pays off!"
